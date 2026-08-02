@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AURELIUS — Private luxury personal training studio. Bespoke fitness, world-class coaching, and an exclusive environment designed for those who demand excellence.">
+  <title>AURELIUS — Luxury Personal Gym</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Glass Navigation -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <div class="nav__glass">
+        <a href="#hero" class="nav__logo">AURELIUS</a>
+        <ul class="nav__menu" id="nav-menu">
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#pricing" class="nav__link">Pricing</a></li>
+          <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+          <li><a href="#faq" class="nav__link">FAQ</a></li>
+        </ul>
+        <a href="#contact" class="nav__cta">Book a Session</a>
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Cinematic Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__media">
+        <img
+          class="hero__image"
+          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=2400&q=85&auto=format&fit=crop"
+          alt="Luxury private gym interior with premium equipment"
+          loading="eager"
+        >
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__eyebrow" data-animate="fade-up">Private Luxury Training</p>
+        <h1 class="hero__title">
+          <span class="hero__title-line" data-animate="fade-up" data-delay="1">Elevate Your</span>
+          <span class="hero__title-line hero__title-line--accent" data-animate="fade-up" data-delay="2">Performance.</span>
+        </h1>
+        <p class="hero__subtitle" data-animate="fade-up" data-delay="3">An exclusive personal gym where elite coaching meets refined design. One-on-one sessions tailored to your body, your goals, your life.</p>
+        <div class="hero__actions" data-animate="fade-up" data-delay="4">
+          <a href="#contact" class="btn btn--primary btn--magnetic">
+            <span>Begin Your Journey</span>
+          </a>
+          <a href="#about" class="btn btn--glass btn--magnetic">
+            <span>Discover More</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <div class="hero__scroll-track">
+          <div class="hero__scroll-thumb"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Apple-style Marquee -->
+    <section class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Private Sessions</span>
+        <span class="marquee__dot">◆</span>
+        <span>Elite Coaching</span>
+        <span class="marquee__dot">◆</span>
+        <span>Recovery Suite</span>
+        <span class="marquee__dot">◆</span>
+        <span>Performance Lab</span>
+        <span class="marquee__dot">◆</span>
+        <span>Concierge Service</span>
+        <span class="marquee__dot">◆</span>
+        <span>Private Sessions</span>
+        <span class="marquee__dot">◆</span>
+        <span>Elite Coaching</span>
+        <span class="marquee__dot">◆</span>
+        <span>Recovery Suite</span>
+        <span class="marquee__dot">◆</span>
+        <span>Performance Lab</span>
+        <span class="marquee__dot">◆</span>
+        <span>Concierge Service</span>
+        <span class="marquee__dot">◆</span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__text">
+            <p class="section__eyebrow reveal">About Us</p>
+            <h2 class="section__title reveal">Where Discipline<br>Meets Design.</h2>
+            <p class="section__description reveal">Founded on the belief that fitness should feel as refined as the results it delivers, AURELIUS is a sanctuary for high-performers who refuse to compromise.</p>
+            <p class="section__description reveal">Our studio is appointment-only, fully private, and equipped with state-of-the-art machinery curated from the world's finest manufacturers. Every detail — from lighting to acoustics — is engineered for focus.</p>
+            <div class="about__stats reveal">
+              <div class="about__stat">
+                <span class="about__stat-number" data-target="12">0</span>
+                <span class="about__stat-label">Years of Excellence</span>
+              </div>
+              <div class="about__stat">
+                <span class="about__stat-number" data-target="2400">0</span>
+                <span class="about__stat-label">Clients Transformed</span>
+              </div>
+              <div class="about__stat">
+                <span class="about__stat-number" data-target="100">0</span>
+                <span class="about__stat-label">Private Sessions</span>
+              </div>
+            </div>
+          </div>
+          <div class="about__visual reveal reveal--scale">
+            <div class="about__image-stack">
+              <div class="about__image about__image--primary">
+                <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=900&q=80&auto=format&fit=crop" alt="Premium gym equipment in a luxury studio" loading="lazy">
+              </div>
+              <div class="about__image about__image--secondary">
+                <img src="https://images.unsplash.com/photo-1540497077202-7a8ee7869886?w=700&q=80&auto=format&fit=crop" alt="Personal training session in a private studio" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cinematic Interstitial -->
+    <section class="showcase">
+      <div class="showcase__inner">
+        <p class="showcase__label reveal">The Experience</p>
+        <h2 class="showcase__headline reveal">
+          <span>Designed for</span>
+          <span class="showcase__headline--light">those who lead.</span>
+        </h2>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section section--dark" id="services">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow reveal">Services</p>
+          <h2 class="section__title reveal">Crafted for<br>Your Ambition.</h2>
+          <p class="section__description section__description--center reveal">Every program is bespoke. Every session is yours alone.</p>
+        </div>
+        <div class="services__grid">
+          <article class="service-card reveal">
+            <div class="service-card__glow"></div>
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M16 8v16M8 16h16" stroke="currentColor" stroke-width="1.2"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Personal Training</h3>
+            <p class="service-card__text">One-on-one sessions with certified elite coaches. Biomechanics analysis, progressive overload, and real-time form correction.</p>
+            <span class="service-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__glow"></div>
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <rect x="6" y="10" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M12 10V8a4 4 0 018 0v2" stroke="currentColor" stroke-width="1.2"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Nutrition Coaching</h3>
+            <p class="service-card__text">Macro-optimized meal plans designed by registered dietitians. Sustainable strategies that fuel performance without restriction.</p>
+            <span class="service-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__glow"></div>
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M16 4l3 9h9l-7 5 3 9-8-6-8 6 3-9-7-5h9z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Performance Lab</h3>
+            <p class="service-card__text">VO2 max testing, body composition scans, and movement assessments. Data-driven insights to accelerate your progress.</p>
+            <span class="service-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__glow"></div>
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M16 10v6l4 2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Recovery Suite</h3>
+            <p class="service-card__text">Infrared sauna, cold plunge, compression therapy, and guided mobility sessions. Recovery as refined as your training.</p>
+            <span class="service-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__glow"></div>
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M8 24l8-16 8 16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 20h8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Executive Programs</h3>
+            <p class="service-card__text">Tailored for C-suite leaders and entrepreneurs. Flexible scheduling, travel protocols, and concierge-level support.</p>
+            <span class="service-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__glow"></div>
+            <div class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M6 26V12l10-6 10 6v14" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+                <rect x="12" y="18" width="8" height="8" stroke="currentColor" stroke-width="1.2"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Private Studio Access</h3>
+            <p class="service-card__text">Reserve the entire studio for yourself. Premium equipment, ambient lighting, and complete privacy on your schedule.</p>
+            <span class="service-card__arrow" aria-hidden="true">→</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow reveal">Membership</p>
+          <h2 class="section__title reveal">Invest in<br>Yourself.</h2>
+          <p class="section__description section__description--center reveal">Transparent pricing. No hidden fees. Cancel anytime with 30 days notice.</p>
+        </div>
+        <div class="pricing__grid">
+          <article class="pricing-card reveal">
+            <p class="pricing-card__tier">Essential</p>
+            <h3 class="pricing-card__name">Foundation</h3>
+            <div class="pricing-card__price">
+              <span class="pricing-card__currency">$</span>
+              <span class="pricing-card__amount">450</span>
+              <span class="pricing-card__period">/ month</span>
+            </div>
+            <ul class="pricing-card__features">
+              <li>4 private sessions per month</li>
+              <li>Personalized training plan</li>
+              <li>Body composition assessment</li>
+              <li>Locker &amp; amenities access</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--magnetic"><span>Get Started</span></a>
+          </article>
+          <article class="pricing-card pricing-card--featured reveal">
+            <div class="pricing-card__badge">Most Popular</div>
+            <p class="pricing-card__tier">Premium</p>
+            <h3 class="pricing-card__name">Performance</h3>
+            <div class="pricing-card__price">
+              <span class="pricing-card__currency">$</span>
+              <span class="pricing-card__amount">850</span>
+              <span class="pricing-card__period">/ month</span>
+            </div>
+            <ul class="pricing-card__features">
+              <li>8 private sessions per month</li>
+              <li>Nutrition coaching included</li>
+              <li>Recovery suite access</li>
+              <li>Performance lab quarterly</li>
+              <li>Priority scheduling</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--magnetic"><span>Get Started</span></a>
+          </article>
+          <article class="pricing-card reveal">
+            <p class="pricing-card__tier">Elite</p>
+            <h3 class="pricing-card__name">Aurelius</h3>
+            <div class="pricing-card__price">
+              <span class="pricing-card__currency">$</span>
+              <span class="pricing-card__amount">1,500</span>
+              <span class="pricing-card__period">/ month</span>
+            </div>
+            <ul class="pricing-card__features">
+              <li>Unlimited private sessions</li>
+              <li>Dedicated head coach</li>
+              <li>Full recovery suite access</li>
+              <li>Monthly performance lab</li>
+              <li>Private studio reservations</li>
+              <li>Concierge support</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--magnetic"><span>Get Started</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section section--dark" id="testimonials">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow reveal">Testimonials</p>
+          <h2 class="section__title reveal">Trusted by<br>Leaders.</h2>
+        </div>
+        <div class="testimonials__slider reveal">
+          <div class="testimonials__track" id="testimonials-track">
+            <blockquote class="testimonial">
+              <p class="testimonial__quote">"AURELIUS transformed not just my body, but my entire approach to wellness. The privacy, the precision, the atmosphere — it's unlike anything I've experienced."</p>
+              <footer class="testimonial__author">
+                <div class="testimonial__avatar">JM</div>
+                <div>
+                  <cite class="testimonial__name">James Mitchell</cite>
+                  <span class="testimonial__role">CEO, Mitchell Ventures</span>
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              <p class="testimonial__quote">"As a surgeon with unpredictable hours, I needed flexibility without sacrificing quality. My coach adapts every session. I've never been in better shape at 52."</p>
+              <footer class="testimonial__author">
+                <div class="testimonial__avatar">SC</div>
+                <div>
+                  <cite class="testimonial__name">Dr. Sarah Chen</cite>
+                  <span class="testimonial__role">Chief of Surgery</span>
+                </div>
+              </footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              <p class="testimonial__quote">"The executive program is worth every penny. Travel protocols keep me on track globally. This isn't a gym — it's a performance partner."</p>
+              <footer class="testimonial__author">
+                <div class="testimonial__avatar">AR</div>
+                <div>
+                  <cite class="testimonial__name">Alexander Reed</cite>
+                  <span class="testimonial__role">Managing Partner, Reed Capital</span>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="testimonials__nav">
+            <button class="testimonials__btn" id="testimonial-prev" aria-label="Previous testimonial">
+              <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="testimonials__dots" id="testimonials-dots"></div>
+            <button class="testimonials__btn" id="testimonial-next" aria-label="Next testimonial">
+              <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="faq__grid">
+          <div class="faq__header">
+            <p class="section__eyebrow reveal">FAQ</p>
+            <h2 class="section__title reveal">Questions?<br>Answered.</h2>
+            <p class="section__description reveal">Everything you need to know before your first session.</p>
+          </div>
+          <div class="faq__list reveal">
+            <details class="faq__item">
+              <summary class="faq__question">
+                Is AURELIUS open to the public?
+                <span class="faq__icon"></span>
+              </summary>
+              <div class="faq__answer">
+                <p>No. AURELIUS is an appointment-only, members-only studio. We maintain a limited membership to ensure every client receives undivided attention and complete privacy during their sessions.</p>
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">
+                What should I expect in my first session?
+                <span class="faq__icon"></span>
+              </summary>
+              <div class="faq__answer">
+                <p>Your first visit includes a comprehensive movement assessment, body composition scan, goal-setting consultation, and a tailored introductory workout. Plan for 90 minutes. Wear comfortable athletic clothing — we provide everything else.</p>
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">
+                Can I pause or cancel my membership?
+                <span class="faq__icon"></span>
+              </summary>
+              <div class="faq__answer">
+                <p>Yes. Memberships can be paused for up to 3 months per year with no penalty. Cancellation requires 30 days written notice. We believe in earning your loyalty through results, not contracts.</p>
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">
+                Do you offer couples or partner sessions?
+                <span class="faq__icon"></span>
+              </summary>
+              <div class="faq__answer">
+                <p>We offer semi-private sessions for up to two people at a reduced rate. Both participants receive individualized programming within a shared session. Contact us for semi-private pricing.</p>
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">
+                What equipment and facilities are available?
+                <span class="faq__icon"></span>
+              </summary>
+              <div class="faq__answer">
+                <p>Our studio features Technogym and Eleiko equipment, a full recovery suite with infrared sauna and cold plunge, a performance lab, luxury changing rooms with premium amenities, and a private lounge area.</p>
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__question">
+                How do I book a consultation?
+                <span class="faq__icon"></span>
+              </summary>
+              <div class="faq__answer">
+                <p>Fill out the contact form below or call us directly. A member of our team will reach out within 24 hours to schedule a complimentary 30-minute consultation at the studio.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section section--dark" id="contact">
+      <div class="container">
+        <div class="contact__grid">
+          <div class="contact__info">
+            <p class="section__eyebrow reveal">Contact</p>
+            <h2 class="section__title reveal">Begin Your<br>Transformation.</h2>
+            <p class="section__description reveal">Schedule a complimentary consultation and experience the AURELIUS difference firsthand.</p>
+            <address class="contact__details reveal">
+              <div class="contact__detail">
+                <span class="contact__detail-label">Location</span>
+                <span>1200 Madison Avenue, Suite 800<br>New York, NY 10028</span>
+              </div>
+              <div class="contact__detail">
+                <span class="contact__detail-label">Phone</span>
+                <a href="tel:+12125550100">+1 (212) 555-0100</a>
+              </div>
+              <div class="contact__detail">
+                <span class="contact__detail-label">Hours</span>
+                <span>Mon – Sat: 6:00 AM – 9:00 PM<br>Sun: 8:00 AM – 6:00 PM</span>
+              </div>
+            </address>
+          </div>
+          <form class="contact__form glass-panel reveal" id="contact-form" novalidate>
+            <div class="form__group">
+              <label for="name" class="form__label">Full Name</label>
+              <input type="text" id="name" name="name" class="form__input" placeholder="Your name" required>
+              <span class="form__error" id="name-error"></span>
+            </div>
+            <div class="form__group">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" id="email" name="email" class="form__input" placeholder="you@example.com" required>
+              <span class="form__error" id="email-error"></span>
+            </div>
+            <div class="form__group">
+              <label for="phone" class="form__label">Phone <span class="form__optional">(optional)</span></label>
+              <input type="tel" id="phone" name="phone" class="form__input" placeholder="+1 (555) 000-0000">
+            </div>
+            <div class="form__group">
+              <label for="plan" class="form__label">Interested Plan</label>
+              <select id="plan" name="plan" class="form__input form__select">
+                <option value="">Select a plan</option>
+                <option value="foundation">Foundation — $450/mo</option>
+                <option value="performance">Performance — $850/mo</option>
+                <option value="aurelius">Aurelius — $1,500/mo</option>
+                <option value="consultation">Consultation Only</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="message" class="form__label">Message</label>
+              <textarea id="message" name="message" class="form__input form__textarea" placeholder="Tell us about your goals..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full btn--magnetic"><span>Request Consultation</span></button>
+            <p class="form__success" id="form-success" hidden>Thank you. We'll be in touch within 24 hours.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#hero" class="footer__logo">AURELIUS</a>
+          <p class="footer__tagline">Private luxury training for those who demand excellence.</p>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Navigate</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">Connect</h4>
+          <ul>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:hello@aurelius.gym">hello@aurelius.gym</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 AURELIUS. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
